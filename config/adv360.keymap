@@ -41,11 +41,11 @@
 
         default_layer {
             bindings = <
-      &kp INT_YEN  &kp N1     &kp N2    &kp N3     &kp N4  &kp N5             &kp EQUAL                                                                               &kp AT  &kp N6          &kp N7     &kp N8    &kp N9    &kp N0       &kp MINUS
-          &kp TAB   &kp Q      &kp W     &kp E      &kp R   &kp T            &kp ESCAPE                                                                              &kp SQT   &kp Y           &kp U      &kp I     &kp O     &kp P  &kp UNDERSCORE
- &kp LEFT_COMMAND   &kp A      &kp S     &kp D      &kp F   &kp G                 &mo 1  &kp LCTRL    &kp K_CUT                  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp DELETE   &kp H           &kp J      &kp K     &kp L  &kp SEMI       &kp COLON
-        &kp LSHFT   &kp Z      &kp X     &kp C      &kp V   &kp B                                    &kp K_COPY                    &kp UP_ARROW                                &kp N           &kp M  &kp COMMA   &kp DOT  &kp FSLH       &kp RSHFT
-       &kp DELETE   &mo 3  &kp LCTRL  &kp LALT  &kp GRAVE                     &kp SPACE      &mo 1  &kp K_PASTE                  &kp DOWN_ARROW    &kp BACKSPACE   &kp ENTER          &kp LANGUAGE_1      &mo 2  &kp LBKT  &kp RBKT           &mo 1
+      &kp INT_YEN  &kp N1     &kp N2    &kp N3     &kp N4  &kp N5             &kp EQUAL                                                                           &kp LEFT_BRACKET  &kp N6          &kp N7     &kp N8    &kp N9    &kp N0       &kp MINUS
+          &kp TAB   &kp Q      &kp W     &kp E      &kp R   &kp T            &kp ESCAPE                                                                                    &kp SQT   &kp Y           &kp U      &kp I     &kp O     &kp P  &kp UNDERSCORE
+ &kp LEFT_COMMAND   &kp A      &kp S     &kp D      &kp F   &kp G                 &mo 1  &kp LCTRL    &kp K_CUT                  &kp LEFT_ARROW  &kp RIGHT_ARROW        &kp DELETE   &kp H           &kp J      &kp K     &kp L  &kp SEMI       &kp COLON
+        &kp LSHFT   &kp Z      &kp X     &kp C      &kp V   &kp B                                    &kp K_COPY                    &kp UP_ARROW                                      &kp N           &kp M  &kp COMMA   &kp DOT  &kp FSLH       &kp RSHFT
+       &kp DELETE   &mo 3  &kp LCTRL  &kp LALT  &kp GRAVE                     &kp SPACE      &mo 1  &kp K_PASTE                  &kp DOWN_ARROW    &kp BACKSPACE         &kp ENTER          &kp LANGUAGE_1      &mo 2  &kp LBKT  &kp RBKT           &mo 1
             >;
         };
 
@@ -71,11 +71,11 @@
 
         layer_mod {
             bindings = <
-  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &kp A                                                                          &trans             &kp BACKSLASH  &kp LEFT_BRACKET       &kp TILDE         &kp MINUS       &kp KP_EQUAL   &none
-  &none         &none         &none         &none         &none         &none            &bootloader                                                                     &bootloader                  &kt INT5         &kp EQUAL    &kp ASTERISK     &kp SEMICOLON         &kp INT_RO   &none
-  &none         &none         &none         &none         &none         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5               &kp INT_YEN      &kp INT_KANA  &kp INT_HENKAN  &kp INT_MUHENKAN  &kp INT_KPJPCOMMA   &none
-  &none         &none         &none         &none    &macro_ver         &none                                  &none                       &none                                      &kp INT_KATAKANAHIRAGANA             &none           &none             &none              &none   &none
-  &none         &none         &none         &none         &none                                &none   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG                                  &bl BL_INC      &bl BL_DEC             &none              &none   &none
+  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &kp A                                                                          &trans             &kp BACKSLASH  &kp LEFT_BRACKET         &kp TILDE         &kp MINUS   &kp SINGLE_QUOTE   &none
+  &none         &none         &none         &none         &none         &none            &bootloader                                                                     &bootloader                  &kt INT5         &kp EQUAL  &kp SINGLE_QUOTE     &kp SEMICOLON         &kp INT_RO   &none
+  &none         &none         &none         &none         &none         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5               &kp INT_YEN      &kp INT_KANA    &kp INT_HENKAN  &kp INT_MUHENKAN  &kp INT_KPJPCOMMA   &none
+  &none         &none         &none         &none    &macro_ver         &none                                  &none                       &none                                      &kp INT_KATAKANAHIRAGANA             &none             &none             &none              &none   &none
+  &none         &none         &none         &none         &none                                &none   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG                                  &bl BL_INC        &bl BL_DEC             &none              &none   &none
             >;
         };
 
